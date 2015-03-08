@@ -1,3 +1,12 @@
+/**
+* WeighingApp Module
+*
+* A one page pros and cons app
+*/
+angular.module('WeighingApp', ['ngStorage'])
+.controller('mainCtrl', ['$scope', '$localStorage', function($scope, $localStorage){
+  
+}])
 
 // Load the Visualization API and the piechart package.
 google.load('visualization', '1.0', {'packages':['corechart']});
